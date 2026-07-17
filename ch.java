@@ -3,10 +3,11 @@ public class ch {
     {
         String st = "Java";
         char[] ch = {'J','a','v','a'};
-        for(int i= 0;i<ch.length;i++)
+        for(char c :ch)
         {
-            System.out.print(ch[i]);
+            System.out.println(c);
+        
         }
-        System.out.print(" "+st);
+       
     }
 }
