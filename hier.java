@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class common
 {
     public int num;
@@ -31,8 +32,16 @@ public class hier {
     public static void main(String[] args)
 
     {
+        Scanner i = new Scanner(System.in);
         savem s = new savem();
-        s.c(23,"java");
+        curr cc = new curr();
+        System.out.println("Enter the Account number and customer name : ");
+        s.c(i.nextInt(),i.nextLine());
         s.display();
+        s.displayy();
+        System.out.println("Enter the Account number and customer name : ");
+        cc.c(i.nextInt(),i.nextLine());
+        cc.display();
+        cc.displayyy();
     }
 }
